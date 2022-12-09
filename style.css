@@ -40,7 +40,7 @@ body {
 .vizual {
     display: flex;
     border: 0.5px solid silver;
-    max-width: 335px;
+    width: 335px;
     border-top-left-radius: 3%;
     border-bottom-left-radius: 3%;   
     background-image: linear-gradient(#06d7c1,#50cc49);
@@ -50,7 +50,7 @@ body {
 .detaily {
     display: flex;
     border: 0.5px solid silver;
-    max-width: 335px;
+    width: 335px;
     border-top-right-radius: 3%;
     border-bottom-right-radius: 3%;
     box-shadow: 5px 5px 10px silver;
