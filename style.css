@@ -59,15 +59,21 @@ body {
 
 .vizual {position: relative;}
 
+.bota img {
+    width: 100%;
+}
+
 .bota {
-    width: 50%;
     position: absolute;
     left: -90px;
     bottom: 0px;
 }
 
 
-
+.vizualobsah {
+    display: flex;
+    flex-direction: column;
+}
 .logo {
     position: relative;
     padding-top:30px;
@@ -80,10 +86,6 @@ body {
     font-weight: 500;
     color: white;
     position: relative;
-    top:60px;
-    left:-95px;
-    padding-top:30px;
-    padding-bottom: 30px;
     padding-left: 30px;
     margin-top:0;
     margin-bottom: 0;
@@ -148,13 +150,14 @@ body {
 
 .velikosti {
     padding-left: 0;
+    margin-bottom: 30px;
 }
 
 .velikosti li {
     display:inline-block;
     justify-content: space-evenly;
     padding-left: 5px;
-    padding-right: 20px;
+    padding-right: 5px;
 }
 
 
@@ -183,7 +186,7 @@ body {
     width: 140px;
     border-radius: 10px; 
     padding:10px 10px;
-    margin-top:25px;
+
     }
 
 
@@ -200,5 +203,6 @@ body {
 }
 
 .akce a {
-    padding: 30px 20px;
+    padding-bottom: 30px;
 }
+
